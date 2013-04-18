@@ -1,0 +1,17 @@
+Name:			sha-string
+Version:		0.1
+License-file:	LICENSE
+Author:			Yukitaka Nishizawa <yuki@hinode-net.co.jp>
+Maintainer:		Yukitaka Nishizawa <yuki@hinode-net.co.jp>
+homepage:		http://labs.pitinfo.jp/yuki/
+build-depends:	base
+Synopsis:		make hash from string
+category:		Data
+build-type:		Simple
+Build-Depends:
+	SHA,
+	bytestring,
+	utf8-string,
+	base64-string
+Exposed-Modules:
+	Data.Digest.Pure.SHA.String
